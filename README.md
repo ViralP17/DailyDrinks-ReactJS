@@ -16,11 +16,6 @@ This simple Daily Drink App where you can Add Order, Edit Order and Delete Order
 - Axios - for promise HTTP requests
 - CSS
 
-## Getting started
-
-You can play with the code on CodeSandbox :)
-
-[![Edit react-shopping-cart](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/beautiful-sinoussi-5u0k8)
 
 ## Build/Run
 
