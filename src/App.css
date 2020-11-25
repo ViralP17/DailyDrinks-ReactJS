@@ -1,0 +1,63 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.OrderTable {
+  width: 100%;
+  table-layout: fixed;
+  }
+  .OrderTable .order-id {
+  max-width: 10%;
+  width: 10%;
+  }
+  
+  .OrderTable .order-name {
+  max-width: 30%;
+  width: 30%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  }
+  .OrderTable .order-price {
+  max-width: 10%;
+  width: 10%;
+  }
+
+  .OrderTable .order-notes {
+    max-width: 30%;
+    width: 30%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    }
+
+    .OrderTable .order-action {
+      max-width: 20%;
+      width: 20%;
+      }
